@@ -1,0 +1,3 @@
+[submodule "lib/evernode"]
+	path = lib/evernode
+	url = git://github.com/yodasan/evernode.git

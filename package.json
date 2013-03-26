@@ -1,0 +1,16 @@
+{
+  "name": "do-favor",
+  "version": "0.0.1",
+  "description": "Personal backup system for manage my collections",
+  "main": "index.js",
+  "repository": "",
+  "keywords": [
+    "backup"
+  ],
+  "author": "Ferrari Lee",
+  "dependencies": {
+    "twit": "~1.1.6",
+    "thrift": "~0.7.0"
+  },
+  "private": true
+}
