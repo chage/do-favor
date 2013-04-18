@@ -21,6 +21,6 @@ If program will run development env as default, if you want to use on real world
 
 Then start up the program, it will backup all your favorite tweet to evernote. Maybe will add more services support in the future. Cause this is personal usage, please don't ask me to implement extra features. If you also need this then take it, or you could write a familiar one. :p
 
-### Feature
+### twitter -> evernote
 
-Right now only support twitter -> evernote.
+Right now only support this kind of backup. When user click favorite on tweet, that tweet sill sync to evernote and create a new note. (title: current datetime; content: tweet link + tweet content)
