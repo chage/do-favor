@@ -16,7 +16,7 @@ var everUserType = require('./lib/evernode/lib/evernote-thrift/gen-nodejs/UserSt
 var everNoteStore = require('./lib/evernode/lib/evernote-thrift/gen-nodejs/NoteStore');
 var everNoteType = require('./lib/evernode/lib/evernote-thrift/gen-nodejs/NoteStore_types');
 var everType = require('./lib/evernode/lib/evernote-thrift/gen-nodejs/Types_types');
-const EVERNOTE_URL = "sandbox.evernote.com";
+const EVERNOTE_URL = (process.env.NODE_ENV == 'production') ? "www.evernote.com" : "sandbox.evernote.com";
 
 function getUserClient() {
   var conn = everConnection.createHTTPSConnection(EVERNOTE_URL, 443, '/edam/user');
